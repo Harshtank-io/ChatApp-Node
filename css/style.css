@@ -1,26 +1,32 @@
+body{
+    background-color: #E4DCCF;
+    font-family: 'DotGothic16', sans-serif;
+    font-size: 20px;
+}
 .logo{
-    display:block ;
-    margin: auto;
-    width: 50px;
-    height: 50px;
+    text-align: center;
+    font-size: 35px;
 }
 
 .container{
     max-width: 955px;
-    background-color: aqua;
+    background-color: #EA5455;
     margin: auto;
     height: 60vh;
     padding: 33px;
-    overflow-y: scroll;
+    overflow-y:  scroll ;
     margin-bottom: 23px;
+    border: 3px solid black;
+    border-radius: 6px;
 
 }
 
 .message{
-    background-color: grey;
+    color: aliceblue;
+    background-color: #0964c6;
     margin: 17px 2px;
-    border: 2px solid greenyellow;
-    border-radius: 10px;
+    border: 2px solid white;
+    border-radius: 6px;
     padding: 10px;
 } 
 .left{
@@ -39,7 +45,7 @@
     margin: auto;
 }
 #messageInp{
-    width: 92%;
+    width: 82%;
     border: 2px solid black;
     border-radius: 6px;
     height: 34px;
@@ -49,4 +55,10 @@
     border: 2px solid black;
     border-radius: 6px;
     height: 34px;
+    width: 90px;
+}
+.btn:hover{
+    background-color: #0964c6;
+    color: aliceblue;
+
 }
